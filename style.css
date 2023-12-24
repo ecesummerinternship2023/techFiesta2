@@ -57,8 +57,12 @@ body {
   font-family:'poppins',sans-serif;
   text-align: center;
   color: rgba(32, 24, 17, 0.755);
-  text-shadow : 7px 7px 9px #dfb96d;
-
+  text-shadow : 3px 7px 9px #dfb96d;
+  animation-name: dept;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  animation-duration: 3s;
+  animation-delay: 1s;
 }
 .tech {
   display: block;
@@ -70,7 +74,7 @@ body {
   padding-top: 0px;
   position : relative;
   animation-name: image;
-  animation-duration: 2.75s;
+  animation-duration: 3.25s;
   animation-delay: 0.25s;
   animation-timing-function: linear
 }
@@ -93,6 +97,20 @@ body {
     font-size:1.9rem;
     text-shadow:3px 5px 10px rgb(115, 99, 99);
   }
+@keyframes dept{
+  0%{
+    text-shadow : 0px 0px 0px #dfb96d;
+  }
+  50%{
+    text-shadow : 7px 7px 9px #ba800c;
+  }
+  100%{
+    text-shadow : 5px 7px 9px #dfb96d;
+  }
+}
+
+
+
 @keyframes image {
   0%{
     bottom : 200px;
@@ -167,7 +185,7 @@ body {
     font-size:1.7rem;
   }
   .summer{
-    font-size:1.75rem;
+    font-size:1.7rem;
   }
   .hlo{
     padding-right:30px;
@@ -183,6 +201,9 @@ body {
   }
   .dept{
     font-size:1.9rem;
+  }
+  .front{
+    padding: 9px 27px;
   }
 }
 
