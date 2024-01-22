@@ -555,10 +555,12 @@ video{
   }
   video{
     height:39vh;
+    object-fit:cover;
   }
   .video{
     height:auto;
     width:auto;
+    object-fit:cover
   }
   .dept{
     font-size:1.7rem;
@@ -595,7 +597,7 @@ video{
     margin-top:10px;
   }
   .in{
-    margin-right:19px;
+    margin-right:26px;
   }
 
 }
